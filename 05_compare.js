@@ -1,0 +1,14 @@
+var compare = `( 0 ==' ' ) is:- ${0 == ' '}`;
+console.log(compare);
+var compare = `( 0 ==' 0 ' ) is:- ${0 == ' 0 '}`;
+console.log(compare);
+var compare = `( 0 == false ) is:- ${0 ==  false }`;
+console.log(compare);
+var compare = `( null == undefined ) is:- ${null== undefined}`;
+console.log(compare);
+var compare = `( 1 ==[1]) is:- ${1 == [1]}`;
+console.log(compare);
+var compare = `( 1 == true ) is:- ${1 == true}`;
+console.log(compare);
+var compare = `( 1 == '1') is:- ${1 == '1'}`;
+console.log(compare);
