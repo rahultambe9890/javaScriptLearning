@@ -16,10 +16,11 @@ showDtails("Hitesh");
 showDtails("Jenny");
 
 var value1 = "rahul";
-var value2 = "nitine";
-function swapValues(value1, value2) {
-  console.log("before swap", value1, value2);
-  var temp = value1;
+var value2 = "jenifer";
+var temp;
+console.log(`before swap value1= ${value1}`);
+console.log(`before swap value2= ${value2}`);{
+ temp = value1;
   value1 = value2;
   value2 = temp;
   console.log("after sawp", value1, value2);
