@@ -40,11 +40,14 @@ var line =
 console.log(line);
 var quetion = "Q.3) function of swaping  ";
 console.log(quetion);
-
 console.log("Value before Swaping  = Virat Anushka ");
-console.log("Value after Swaping  = Anushka Virat  ");
-console.log("Value before Swaping  =  1000 2000 ");
-console.log("Value after Swaping  = 2000 1000 ");
+var a= "Virat", b= "Anushka" 
+a=b+(b=a,"")
+console.log("Value after Swaping=",a,b);
+console.log("Value before Swaping  = 1000 2000 ");
+var a= 1000, b= 2000 
+a=b+(b=a,"")
+console.log("Value after Swaping=",a,b);
 var line =
   "----------------------------------------------------------------------------------";
 console.log(line);
