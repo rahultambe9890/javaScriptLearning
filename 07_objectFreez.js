@@ -21,26 +21,26 @@ delete anil.company;
 console.log(anil);
 
 
-// anil = sunil; // Not allowed
+// // anil = sunil; // Not allowed
 
-// Array freezing 
-const arrayNumbers = [2, 4, 5, 8];
-// arrayNumbers = []; /// Not allowed
-// Freeze array
-Object.freeze(arrayNumbers);
+// // Array freezing 
+// const arrayNumbers = [2, 4, 5, 8];
+// // arrayNumbers = []; /// Not allowed
+// // Freeze array
+// Object.freeze(arrayNumbers);
 //arrayNumbers.push(10);
-console.log(arrayNumbers);
-const sunil = {
-    age: 24,
-    name: "Sunil",
-    company: "Apple"
-}
+// console.log(arrayNumbers);
+// const sunil = {
+//     age: 24,
+//     name: "Sunil",
+//     company: "Apple"
+// }
 
-const sunilAddress = {
-    city : "Pune",
-    pin: "431202"
-}
-// Merging two objects
-Object.assign(sunil, sunilAddress );
-console.log(sunil);
-console.log(sunilAddress);
+// const sunilAddress = {
+//     city : "Pune",
+//     pin: "431202"
+// }
+// // Merging two objects
+// Object.assign(sunil, sunilAddress );
+// console.log(sunil);
+// console.log(sunilAddress);
