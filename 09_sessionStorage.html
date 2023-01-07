@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Session Storage</title>
+
+    </head>
+
+    <body>
+        
+        <h2> Session Storage Learning</h2>
+        <script>
+            console.log("Hello --> Session storage");
+            window.sessionStorage.setItem("name", "Sitaram");
+            window.sessionStorage.setItem("grade", "A+");
+            window.sessionStorage.setItem("college", "Fabtech College");
+            window.sessionStorage.setItem("city", "Sangola");
+            const len = window.sessionStorage.length;
+            console.log(len);
+            const clgName = window.sessionStorage.getItem("college");
+            console.log(clgName);
+            window.sessionStorage.removeItem("grade");
+            // window.sessionStorage.clear();
+        </script>
+    </body>
+</html>
