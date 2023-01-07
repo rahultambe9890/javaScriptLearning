@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Session Storage</title>
+
+    </head>
+
+    <body>
+        
+        <h2> Session Storage Assignment</h2>
+        <script>
+            console.log("Hello --> Session storage");
+            window.sessionStorage.setItem("Name", "Rahul Khandu Tambe");
+            window.sessionStorage.setItem("City", "Sangola");
+            window.sessionStorage.setItem("Pin Code", "413317");
+            window.sessionStorage.setItem("District", "Solapur");
+            const len = window.sessionStorage.length;
+            // console.log(len);
+            // const clgName = window.sessionStorage.getItem("college");
+            // console.log(clgName);
+            window.sessionStorage.removeItem("City");
+            // window.sessionStorage.clear();
+        </script>
+    </body>
+</html>
