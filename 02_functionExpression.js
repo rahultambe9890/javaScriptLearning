@@ -28,6 +28,8 @@ console.log("---------------------------------------------------------");
 var length = length (499)
 var  width = width (917)
 function Area (length, width){
+    
+    console.log(" Area of the Reactangle is:-" + Area);
     return length*width
 }
 console.log(" Area of the Reactangle is:-" + Area);
